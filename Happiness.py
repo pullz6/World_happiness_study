@@ -28,7 +28,7 @@ happiness_2018 = pd.read_csv('2018.csv')
 happiness_2017 = pd.read_csv('2017.csv')
 happiness_2016 = pd.read_csv('2016.csv')
 happiness_2015 = pd.read_csv('2015.csv')
-# happiness_2019['Country_code'] = get_country_code(happiness_2019['Country or region'])
+happiness_2019['Country_code'] = get_country_code(happiness_2019['Country or region'])
 
 # world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
 # world.columns=['pop_est', 'continent', 'name', 'Country_code', 'gdp_md_est', 'geometry']
